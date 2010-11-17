@@ -3,10 +3,10 @@ Dictionary to add syntax help for CFWheels framework to CFEclipse and CFBuilder.
 
 ## Installation
 
-### CFEclipse
+### CFBuilder
 
-1.  Exit Eclipse or make sure it is not opened
-2.  Browse to < eclipse install dir >/plugins/org.cfeclipse.cfml_<version number>/dictionary/ and move cfwheels.xml into that directory.
+1.  Exit CFBuilder or make sure it is not opened
+2.  Browse to < CFBuilder install dir >/plugins/com.adobe.ide.coldfusion.dictionary_{version number}/dictionary/ and move cfwheels.xml into that directory.
 3.  open the dictionaryconfig.xml file that is in that directory and add the following XML above in each version of coldfusion you would like the CFWheels insight to function in.
 
 <code>
@@ -27,10 +27,11 @@ Dictionary to add syntax help for CFWheels framework to CFEclipse and CFBuilder.
 </dictionary>
 </code>
 
-### CFBuilder
 
-1.  Exit CFBuilder or make sure it is not opened
-2.  Browse to < CFBuilder install dir >/plugins/com.adobe.ide.coldfusion.dictionary_<version number>/dictionary/ and move cfwheels.xml into that directory.
+### CFEclipse
+
+1.  Exit Eclipse or make sure it is not opened
+2.  Browse to < eclipse install dir >/plugins/org.cfeclipse.cfml_{version number}/dictionary/ and move cfwheels.xml into that directory.
 3.  open the dictionaryconfig.xml file that is in that directory and add the following XML above in each version of coldfusion you would like the CFWheels insight to function in.
 
 <code>
